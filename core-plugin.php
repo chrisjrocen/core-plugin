@@ -21,9 +21,12 @@ if ( 'PLUGIN_URL' ) {
 
 //includes
 require_once( plugin_dir_path( __FILE__ ) . '/core/post-types/projects.php' );
+require_once( plugin_dir_path( __FILE__ ) . '/core/taxonomies/website-type.php' );
+
 
 //Hooks and Filters
 add_action( 'init', 'register_projects_post_type' );
+add_action( 'init', 'register_type_of_website_taxonomy' );
 
 
 //Shortcodes

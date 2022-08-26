@@ -39,7 +39,7 @@ function register_projects_post_type() {
 		'hierarchical'        => false,
 		'menu_icon'           => 'dashicons-analytics',
 		'capability_type'     => 'post',
-		'taxonomies'          => array( 'category' ),
+		'taxonomies'          => array( '' ),
 		'rewrite'             => array( 'slug' => 'projects' ),
 		'supports'            => array( 
 			'title',
