@@ -45,6 +45,7 @@ function register_projects_post_type() {
 			'title',
 			'custom-fields',
 			'thumbnail',
+			'editor'
 		),
 
 	);
